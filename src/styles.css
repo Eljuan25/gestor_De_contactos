@@ -1,0 +1,72 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00050a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8291a1;
+}
+
+/* Estilos para el contenedor del nombre */
+.name-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA9bvZ5PUPcivKFGPdqhXXdPXqRtIzD55Vcg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #913b5e;
+}
+
+/* Estilos para el contenedor de los botones */
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.button-container button {
+    margin-left: auto; /* Mueve los botones hacia la derecha */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    gap: 10px; /* Espacio entre los botones */
+  }
