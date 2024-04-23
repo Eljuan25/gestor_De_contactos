@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+#Documentación del Gestor de Contactos en JavaScript y React con JSON
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introducción
+l Gestor de Contactos en JavaScript y React con JSON es una aplicación web diseñada para gestionar de manera eficiente la información de contactos personales. Desarrollado utilizando JavaScript puro para la versión básica y React.js para la versión mejorada, ambas aplicaciones hacen uso de JSON para el almacenamiento de datos. Esto proporciona una interfaz intuitiva para agregar, editar, eliminar y buscar contactos.
 
-## Available Scripts
 
-In the project directory, you can run:
+Características Principales
 
-### `npm start`
+Gestión de Contactos: Permite al usuario agregar nuevos contactos, editar la información existente, eliminar contactos y buscar contactos por nombre o información relacionada.
+Almacenamiento en Formato JSON: Los datos de los contactos se almacenan en formato JSON, lo que proporciona flexibilidad y facilidad para el manejo de la información.
+Interfaz Intuitiva: Ambas versiones de la aplicación ofrecen una interfaz de usuario diseñada para ser amigable y fácil de usar, permitiendo a los usuarios navegar y operar la aplicación de manera sencilla.
+Funcionalidad de Búsqueda: Se ofrece una función de búsqueda que permite a los usuarios encontrar rápidamente contactos específicos según criterios como el nombre, dirección, número de teléfono, etc.
+Personalización de Contactos: Los usuarios pueden agregar información personalizada a cada contacto, como notas, etiquetas o detalles específicos adicionales.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Requisitos del Sistema
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Versión en React:
+Navegador web moderno compatible con React.js.
+Node.js y npm instalados localmente para el desarrollo y ejecución del proyecto.
+Instrucciones de Uso
+Versión en JavaScript:
+Inicio de la Aplicación: Simplemente carga la aplicación en tu navegador web.
+Agregar Contacto: Haz clic en el botón "Agregar Contacto" y completa el formulario con la información del nuevo contacto. Luego, guarda los cambios.
+Editar Contacto: Para editar un contacto existente, selecciona el contacto de la lista y haz clic en el botón "Editar". Modifica la información según sea necesario y guarda los cambios.
+Eliminar Contacto: Para eliminar un contacto, selecciona el contacto de la lista y haz clic en el botón "Eliminar". Confirma la acción cuando se te solicite.
+Buscar Contacto: Utiliza la barra de búsqueda para encontrar contactos específicos. Ingresa el término de búsqueda y presiona Enter para ver los resultados filtrados.
+Versión en React:
+Clonar el Repositorio: Clona el repositorio del proyecto desde GitHub.
+Instalar Dependencias: Navega al directorio del proyecto y ejecuta npm install para instalar todas las dependencias necesarias.
+Inicio de la Aplicación: Ejecuta npm start para iniciar la aplicación en modo de desarrollo. La aplicación se abrirá automáticamente en tu navegador web predeterminado.
+Agregar Contacto: Haz clic en el botón "Agregar Contacto" y completa el formulario con la información del nuevo contacto. Luego, guarda los cambios.
+Editar Contacto: Para editar un contacto existente, selecciona el contacto de la lista y haz clic en el botón "Editar". Modifica la información según sea necesario y guarda los cambios.
+Eliminar Contacto: Para eliminar un contacto, selecciona el contacto de la lista y haz clic en el botón "Eliminar". Confirma la acción cuando se te solicite.
+Buscar Contacto: Utiliza la barra de búsqueda para encontrar contactos específicos. Ingresa el término de búsqueda y presiona Enter para ver los resultados filtrados.
 
-### `npm run build`
+Conclusión
+El Gestor de Contactos en JavaScript y React con JSON proporciona una solución eficaz para la gestión de información de contactos personales, ofreciendo una versión básica en JavaScript y una versión mejorada en React.js. Con su interfaz intuitiva y su funcionalidad completa, ambas aplicaciones son herramientas útiles para cualquier persona que necesite organizar y acceder fácilmente a sus contactos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para obtener más información sobre cómo utilizar las aplicaciones o para realizar contribuciones al código fuente, consulta la documentación adicional o los repositorios en línea.
